@@ -1,0 +1,35 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	scroll-behavior: smooth;
+}
+
+:root{
+	--bg-color: #ffffff;
+	--text-color: #111111;
+	--main-color: #c8815f;
+	--big-font: 4.5rem;
+	--h2-font: 3.2rem;
+	--h3-font: 2rem;
+	--normal-font: 1rem;
+}
+
+body{
+	background: var(--bg-color);
+	color: var(--text-color);
+}
+
+header{
+	top: 0;
+	right: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
